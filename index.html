@@ -10,7 +10,7 @@
 
 <meta content='https://cdn.discordapp.com/avatars/690747778455830559/3a1b19107d6d1bbde80c2bf2c86209c3.png' property='og:image'>
 <style>
-h1 {
+p {
   font-family: sans-serif;
   text-align: center;
 }
@@ -18,38 +18,8 @@ h1 {
 </head>
 
 <body>
-<!-- Display the countdown timer in an element -->
-<a href="https://snek.lgx.pw/invite" target="_blank"><h1 id="demo"></h1></a>
+<p>We'll be back soon.</p>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Sep 21, 2020 00:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + " DAYS " + hours + " HOURS "
-  + minutes + " MINUTES " + seconds + " SECONDS ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "V2 is out now | Invite the bot with updated permissions...";
-  }
-}, 1000);
-</script>
+<a href="https://botsfordiscord.com/bot/690747778455830559" target="_blank"><p>Bots For Discord</p></a>&nbsp;<a href="https://discordbotlist.com/bots/snek"><p>Discord Bot List</p></a>&nbsp;<a href="https://botlist.space/bot/690747778455830559"><p>botlist.space</p></a>
 </body>
 </html>
